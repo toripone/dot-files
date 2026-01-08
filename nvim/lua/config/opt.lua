@@ -6,6 +6,10 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.smarttab = true
 vim.opt.showcmd = false
+vim.opt.cmdheight = 0
+vim.opt.laststatus = 0
+vim.opt.statusline = "─"
+vim.opt.fillchars:append({ stl = "─", stlnc = "─" })
 
 vim.opt.number = true
 vim.opt.relativenumber = false
